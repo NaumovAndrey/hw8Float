@@ -16,7 +16,7 @@ void task6();
 int main() {
     setlocale(LC_ALL, "Rus");
 
-    cout << "Домашняя работа к третьей лекции. Двумерные массивы и алгоритмы над ними" << endl;
+    cout << "Домашняя работа к восьмой лекции. Числа с плавающей запятой. Математические вычисления" << endl;
 
 
     while (true)
@@ -59,7 +59,7 @@ int main() {
         else if (task == 4) {
             system("cls");
             cout << "Задача 4 Убийца Steam." << endl;
-            task2();
+            task4();
             _getch();
             system("cls");;
         }
@@ -67,7 +67,7 @@ int main() {
         else if (task == 5) {
             system("cls");
             cout << "Задача 5 Кенийский бегун." << endl;
-            task3();
+            task5();
             _getch();
             system("cls");
         }
@@ -75,7 +75,7 @@ int main() {
         else if (task == 6) {
             system("cls");
             cout << "Задача 6 Маятник." << endl;
-            task3();
+            task6();
             _getch();
             system("cls");
         }
